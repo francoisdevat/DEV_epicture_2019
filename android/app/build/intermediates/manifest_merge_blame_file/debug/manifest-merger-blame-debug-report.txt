@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.epitcture"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:4:22-64
+13
+14    <application
+14-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:6:5-24:19
+15        android:name="com.epitcture.MainApplication"
+15-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:7:7-38
+16        android:allowBackup="false"
+16-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:11:7-34
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /home/Alte/.gradle/caches/transforms-2/files-2.1/6acdfb42d09274ab522a09d2effe077a/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:9:7-41
+20        android:label="@string/app_name"
+20-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:8:7-39
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:10:7-52
+22        android:theme="@style/AppTheme"
+22-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:12:7-38
+23        android:usesCleartextTraffic="true" >
+23-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/debug/AndroidManifest.xml:7:18-53
+24        <activity
+24-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:13:7-22:18
+25            android:name="com.epitcture.MainActivity"
+25-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:14:9-37
+26            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+26-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:16:9-79
+27            android:label="@string/app_name"
+27-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:15:9-41
+28            android:windowSoftInputMode="adjustResize" >
+28-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:17:9-51
+29            <intent-filter>
+29-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:18:9-21:25
+30                <action android:name="android.intent.action.MAIN" />
+30-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:19:13-65
+30-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:19:21-62
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:20:13-73
+32-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:20:23-70
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+35-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:23:7-84
+35-->/home/Alte/projects/dev/DEV_epicture_2019/android/app/src/main/AndroidManifest.xml:23:17-81
+36        <activity
+36-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:27:9-31:75
+37            android:name="net.openid.appauth.AuthorizationManagementActivity"
+37-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:28:13-78
+38            android:exported="false"
+38-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:29:13-37
+39            android:launchMode="singleTask"
+39-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:30:13-44
+40            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+40-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:31:13-72
+41        <activity
+41-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:32:9-43:20
+42            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+42-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:33:13-74
+43            android:exported="true" >
+43-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:34:13-36
+44            <intent-filter>
+44-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:35:13-42:29
+45                <action android:name="android.intent.action.VIEW" />
+45-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:36:17-69
+45-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:36:25-66
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:38:17-76
+47-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:38:27-73
+48                <category android:name="android.intent.category.BROWSABLE" />
+48-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:39:17-78
+48-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:39:27-75
+49
+50                <data android:scheme="com.epitcture" />
+50-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:41:17-67
+50-->[net.openid:appauth:0.7.1] /home/Alte/.gradle/caches/transforms-2/files-2.1/8a0a696b5737a1026e5dafc32717ef2d/jetified-appauth-0.7.1/AndroidManifest.xml:41:23-64
+51            </intent-filter>
+52        </activity>
+53    </application>
+54
+55</manifest>

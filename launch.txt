@@ -1,0 +1,9 @@
+echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances
+echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events
+echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+
+~/set_android_path.sh
+// ~/Android/Sdk/platform-tools/adb reverse tcp:8081 tcp:8081
+npx react-native start
+// android-studio
+npx react-native run-android

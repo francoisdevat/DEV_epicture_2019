@@ -1,0 +1,7 @@
+#Thu Feb 13 08:27:48 CET 2020
+base.0=/home/Alte/Downloads/epicture/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/Alte/projects/dev/DEV_epicture_2019/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
